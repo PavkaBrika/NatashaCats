@@ -31,9 +31,9 @@ public class MainActivity extends AppCompatActivity {
                         "Они морду потеряли!!!" };
 
                 Random random = new Random();
-                secondText.setText(phrases[random.nextInt(4)]);
-                thirdText.setText(phrases[random.nextInt(4)]);
-                forthText.setText(phrases[random.nextInt(4)]);
+                secondText.setText(phrases[random.nextInt(5)]);
+                thirdText.setText(phrases[random.nextInt(5)]);
+                forthText.setText(phrases[random.nextInt(5)]);
             }
         });
 
